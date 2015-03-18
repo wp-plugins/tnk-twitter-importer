@@ -1,0 +1,159 @@
+@font-face{
+	font-family:'rosettaicons';
+	src:url('https://abs.twimg.com/font/rosetta-icons-Regular.eot');
+	src:url('https://abs.twimg.com/font/rosetta-icons-Regular.eot?#iefix') format('embedded-opentype'),
+	url('https://abs.twimg.com/font/rosetta-icons-Regular.woff') format('woff'),
+	url('https://abs.twimg.com/font/rosetta-icons-Regular.ttf') format('truetype');
+	font-style:normal;
+	font-weight:normal
+}
+
+img.emoji {
+	height: 1em;
+	width: 1em;
+	margin: 0 .05em 0 .1em;
+	vertical-align: -0.1em;
+}
+
+.tnkti{
+	margin-top:1em;
+	margin-bottom:1em;
+}
+
+.tnkti .out{
+	display:table;
+	width:90%;
+	padding:10px;
+	border:1px solid gray;
+	border-radius:5px;
+	font-size:11pt;
+	color:#292f33;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.tnkti .out:not(:first-child){
+	margin-top:1em;
+}
+
+.tnkti p:empty, .tnkti .state br, .tnkti .tool br{
+	display:none;
+}
+
+.tnkti p{
+	display:inline;
+}
+
+.tnkti a{
+	text-decoration: none;
+}
+
+.tnkti .iname{
+	color:#292f33;
+	font-weight:bold;
+}
+
+.tnkti .iname:hover{
+	color:#1F5C99;
+	text-decoration:underline;
+}
+
+.tnkti .in{
+	display:table-row;
+}
+
+.tnkti .left, .tnkti .right{
+	display:table-cell;
+	vertical-align:top;
+}
+
+.tnkti .left{
+	text-align:center;
+	width:48px;
+	padding-right:10px;
+}
+
+.tnkti img.user{
+	width:48px;
+	height:48px;
+	border-radius:5px;
+}
+
+.tnkti .icon{
+	font-family:"rosettaicons";
+	font-weight:normal;
+	font-style:normal;
+	text-align:center;
+	-webkit-font-smoothing:antialiased;
+}
+
+.tnkti .retweeted{
+	color:#77b255;
+}
+
+.tnkti .verified{
+	color:#88c8f9;
+	font-size:smaller;
+}
+
+.tnkti .state, .tnkti .state a{
+	color:#8899a6;
+}
+
+.tnkti .name, .tnkti .date{
+	display:inline-block;
+}
+
+.tnkti .sname, .tnkti .date{
+	font-size:small;
+}
+
+.tnkti .tweet a{
+	color:#2b7bb9;
+}
+
+.tnkti .tweet a:hover{
+	color:#1F5C99;
+}
+
+.tnkti .media{
+	text-align:center;
+	width:100%;
+}
+
+.tnkti .media-img{
+	border-radius:5px;
+}
+
+.tnkti .tool{
+	text-align:right;
+}
+
+.tnkti .tool a{
+	display:inline-block;
+	vertical-align:bottom;
+	color:#ccd6dd;
+}
+
+.tnkti a.reply:hover{
+	color:#1F5C99;
+}
+
+.tnkti a.retweet:hover{
+	color:#5c913b;
+}
+
+.tnkti a.favorite:hover{
+	color:#ffac33;
+}
+
+.tnkti hr{
+	border-width:1px 0 0 0;
+	border-style:solid;
+	border-color:gray;
+}
+
+.tnkti .origin{
+	display:table;
+	width:100%;
+}
