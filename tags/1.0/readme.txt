@@ -37,13 +37,13 @@ Specifies the user ID of the time line to get. ID is the number. If you know onl
 
 *Title: 
 It is a title of a blog article. The following string are replaced.
-{$name} -> User's name
-{$sname} -> User's screen name(@)
-{$year} -> Tweeted year
-{$month} -> Tweeted month
-{$day} -> Tweeted day
-{$hour1} -> Start of the tweet time division
-{$hour2} -> End of the tweet time division
+{$name} -> User's name.
+{$sname} -> User's screen name(@).
+{$year} -> Tweeted year.
+{$month} -> Tweeted month.
+{$day} -> Tweeted day.
+{$hour1} -> Start of the tweet time division.
+{$hour2} -> End of the tweet time division.
 
 *Collection: 
 Specify the period which collects tweets by hours.
